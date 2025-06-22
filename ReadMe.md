@@ -7,7 +7,7 @@ This program is a health and fitness tracker made with Python that is connected 
 The purpose of making this program is to keep track of diffrent workouts and health data. I wanted to make sure my data couldn't be lost and be accessed anywhere so I hosted a database in a Amazon RDS database in the cloud. This program also helped me learn how to connect a python program to a cloud database and use it to hold information.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+Youtube Video: https://youtu.be/VgjTBqqpLrM
 
 # Cloud Database
 

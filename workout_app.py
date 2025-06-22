@@ -112,7 +112,7 @@ def delete_data():
         print("\nHealth Records:")
         for rec in records:
             print(f"ID: {rec[0]}, Date: {rec[1]}")
-        # Choses which health entry to delete
+        # Choses which health entry to delete 
         delete_id = int(input("Enter the ID of the health record to delete: "))
         cursor.execute("DELETE FROM health_data WHERE id = %s AND user_id = %s", (delete_id, user_id))
         connection.commit()
