@@ -2,9 +2,9 @@ import pymysql # Connecting and using MySQL database
 from datetime import date
 
 # AWS RDS database connection
-db_host="database-1.cyuht5zo7uqk.us-east-1.rds.amazonaws.com" 
-db_user="admin"
-db_pass="Lzybear123"
+db_host="" 
+db_user=""
+db_pass=""
 db_name="workout"
 
 # Establish connection to the MySQL database
